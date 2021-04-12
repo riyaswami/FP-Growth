@@ -2,9 +2,9 @@
 
 FP Growth for association mining
 
-This python script works on transactional data to generate frequent item sets and visualise FP tree, also the conditional FP trees are created for frequen items.
+This python script works on transactional data to generate frequent item sets and visualise FP tree, also the conditional FP trees are created for frequent items.
 
-Input format: -> Path to a text file having transactions line by line, all the items in a transaction is separated by a single space character.
+Input format: -> Path to a text file having transactions line by line, all the items in a transaction must be separated by a single space character.
 			        -> minimum support
 			        -> minimum confidence
 

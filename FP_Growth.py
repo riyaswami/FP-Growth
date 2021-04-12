@@ -388,7 +388,7 @@ class FPGrowth:
 
 
 if __name__ == '__main__':
-    path = "/content/drive/MyDrive/Project_fp/dataset.txt" #input("Enter complete path for the text file: ")
+    path = input("Enter complete path for the text file: ")
     while not os.path.isfile(path):
         print("No such path exists.")
         path = input("Please enter a valid path: ")
@@ -411,8 +411,8 @@ if __name__ == '__main__':
             print(it, ':', temp[it])
         ch = input('Enter \'N\' to exit.')
     print()
-    min_sup =  20 #int(input("Enter minimum support in %: "))
-    min_conf = 80 #int(input("Enter minimum confidence in %: "))
+    min_sup =  int(input("Enter minimum support in %: "))
+    min_conf = int(input("Enter minimum confidence in %: "))
     t1 = time.time()
     fp_tree = FPGrowth(read_data, min_sup, min_conf)
     t2 = time.time()

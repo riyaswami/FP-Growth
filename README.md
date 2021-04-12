@@ -1,6 +1,6 @@
 # FP-Growth
+
 FP Growth for association mining
-FP GROWTH ALGORITHM
 
 This python script works on transactional data to generate frequent item sets and visualise FP tree, also the conditional FP trees are created for frequen items.
 
